@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<style>
+				[data-role="drag-drop-target"]{
+					float:left;
+					width:500px;
+					height:380px;
+					padding:10px;
+					border:3px solid #dd;
+					border-radius:4px;
+				}
+				[draggable="true"]{
+				
+				
+				}
+				.drag{
+				opacity:0.25;
+				}
+				
+			</style>
+		</head>
+		<body>
+			<div id="src-container" data-role="drag-drop-target">
+				<img id="home-snapshot" draggable="true" class="img-response" src="background.jpg">
+			</div>
+			<div id="target" data-role="drag-drop-target"></div>
+		</body>
+	</html>

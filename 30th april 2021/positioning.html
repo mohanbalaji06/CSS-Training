@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<style>
+				body{
+					background-color:#1f1f1f;
+					color:#bfbfbf;
+					height:1500px;
+				}
+				.box{
+				height:100px;
+				width:100px;
+				margin-bottom:10px;
+				}
+				.bluebox{
+					background:olive;
+					position:relative;
+					
+					z-index:3;
+				}
+				.greenbox{
+				background:skyblue;
+				z-index:2;
+				
+				}
+				.container{
+					background:gray;
+					height:200px;
+					width:200px;
+					position:relative;
+				}
+			</style>
+		</head>
+		<body>
+			<div class="container">
+				<div class="box bluebox" ></div>
+			</div>
+			<div class="box greenbox"></div>
+			
+			<h2>Understanding of  positioning</h2>
+			
+			<p>satic positioning is the default behaviour of elements. Inherited positioning tells an element to inherut from its parent position. z-index controls the vertical stacking order of the elements.</p>
+		</body>
+	</html>
