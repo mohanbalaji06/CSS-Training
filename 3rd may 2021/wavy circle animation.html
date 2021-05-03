@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Wavy Circle Animation</title>
+			
+			<style>
+			body{
+			margin:0;
+			padding:0;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			min-height:100vh;
+			background:#89179e;
+
+			}
+
+		.loader{
+			
+			position:relative;
+			width:300px;
+			height:300px;
+			transform-style:preserve-3d;
+			transform:perspective(500px) rotatex(60deg);
+		}
+
+		.loader span{
+			position:absolute;
+			display:block;
+			border: 2px solid #fff;
+			box-sizing: border-box;
+			border-radius:50%;
+			transform:translateZ(-100px);
+			animate:animate 3s ease-in-out infinite;
+			
+		}
+		@keyframes animate{
+			
+			0%,100%
+			{
+				transform:translateZ(-100px);
+			}
+			50%{
+				
+				transform:translateZ(100px);
+			}
+		}
+
+		.loader span:nth-child(1){
+			
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			animation-delay:1.3s;
+		}
+
+		.loader span:nth-child(2){
+			
+			top:10;
+			left:10;
+			right:10;
+			bottom:10;
+			animation-delay:1.2s;
+		}
+
+		.loader span:nth-child(3){
+			
+			top:20;
+			left:20;
+			right:20;
+			bottom:20;
+			animation-delay:1.1s;
+		}
+		.loader span:nth-child(4){
+			
+			top:30;
+			left:30;
+			right:30;
+			bottom:30;
+			animation-delay:0.9s;
+		}
+		.loader span:nth-child(5){
+			
+			top:40;
+			left:40;
+			right:40;
+			bottom:40;
+			animation-delay:0.8s;
+		}
+		.loader span:nth-child(6){
+			
+			top:50;
+			left:50;
+			right:50;
+			bottom:50;
+		}
+		.loader span:nth-child(7){
+			
+			top:60;
+			left:60;
+			right:60;
+			bottom:60;
+		}
+		.loader span:nth-child(8){
+			
+			top:70;
+			left:70;
+			right:70;
+			bottom:70;
+			animation-delay:0.7s;
+		}
+		.loader span:nth-child(9){
+			
+			top:80;
+			left:80;
+			right:80;
+			bottom:80;
+			animation-delay:0.6s;
+		}
+		.loader span:nth-child(10){
+			
+			top:90;
+			left:90;
+			right:90;
+			bottom:90;
+			animation-delay:0.5s;
+		}
+		.loader span:nth-child(11){
+			
+			top:100;
+			left:100;
+			right:100;
+			bottom:100;
+			animation-delay:0.4s;
+		}
+		.loader span:nth-child(12){
+			
+			top:110;
+			left:110;
+			right:110;
+			bottom:110;
+			animation-delay:0.3s;
+		}
+		.loader span:nth-child(13){
+			
+			top:120;
+			left:120;
+			right:120;
+			bottom:120;
+			animation-delay:0.2s;
+		}
+		.loader span:nth-child(14){
+			
+			top:130;
+			left:130;
+			right:130;
+			bottom:130;
+			animation-delay:0.1s;
+		}
+		.loader span:nth-child(15){
+			
+			top:140;
+			left:140;
+			right:140;
+			bottom:140;
+			animation-delay:0s;
+		}
+			</style>
+		</head>
+		<body>
+			<div class='loader'>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</body>
+	</html>
