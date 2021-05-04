@@ -1,0 +1,12 @@
+#parent{
+	border: 1px solid red;
+	width:800px;
+	font-size:40px;
+}
+
+#child{
+
+	border: 1px solid blue;
+	width:50%;
+	font-size:2em;
+}
