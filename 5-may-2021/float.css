@@ -1,0 +1,12 @@
+ul{
+	background-color:gold;
+	list-style-type:none;
+	
+	overflow:auto;
+}
+li{
+	color:white;
+	padding:10px 15px;
+	float:left;
+	font-weight:bold;
+}

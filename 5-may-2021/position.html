@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>css display of inline, block, inline-block</title>
+		<style>
+			#parent{
+				border: 1px solid red;
+				padding:20px;
+				width:50%;
+				margin:100px;
+				position:relative;
+			}
+			#one{
+				width:100px;
+				height:100px;
+				background-color:green;
+				display:inline-block;
+			}
+			#two{
+				width:100px;
+				height:100px;
+				background-color:blue;
+				display:inline-block;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			#three{
+				width:100px;
+				height:100px;
+				background-color:black;
+				display:inline-block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="parent" >
+			<div class="one">
+			</div>
+			<div class="two">
+			</div>
+			<div class="three">
+			</div>
+		</div>
+		
+	</body>
+</html>

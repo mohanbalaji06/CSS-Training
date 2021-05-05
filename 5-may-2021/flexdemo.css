@@ -1,0 +1,15 @@
+.flex-container{
+	background-color:indianred;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-around;
+	align-items:stretch;
+}
+.id1{
+	
+	background-color:wheat;
+	margin:20px;
+	padding:20px;
+	display:inline-block;
+	text-align:center;
+}

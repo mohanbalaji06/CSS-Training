@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>css animation</title>
+		<style>
+			
+			@keyframes changecolor{
+				0%{
+					background-color:red;
+				}
+				25%{
+					background-color:green;
+				}
+				50%{
+					background-color:orange;
+				}
+				75%{
+					background-color:black;
+				}
+				100%{
+					background-color:yellow;
+				}
+			}
+		
+		
+			#animate{
+				background-color:red;
+				height:200px;
+				width:200px;
+				animation-name: changecolor;
+				animation-duration:4s;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="animate">
+			
+		</div>
+		
+	</body>
+</html>
