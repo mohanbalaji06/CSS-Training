@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	
+	background:linear-gradient(to right,indianred,teal);
+}
+.main{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.btn{
+	
+	background:linear-gradient(to right,indianred,teal);
+	width:180px;
+	height:50px;
+	border:2px solid black;
+	font-size:1.3rem;
+	color:white;
+	cursor:pointer;
+	border-radius:0 25px;
+	position:relative;
+	transition:all .6s;
+}
+
+.btn:hover{
+	border-radius:25px 0;
+}
+
