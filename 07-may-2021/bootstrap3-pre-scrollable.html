@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Bootstrap3 pre-scrollable Examples</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	  
+		<div class="container" style="background-color:lightblue;">
+			<h2>CODE:</h2>
+			<p>python program to print range of numbers:</p>
+			<pre class="pre-scrollable">
+				<code>
+					n=input("enter a number:")
+					for i in range(n):
+						print(i)
+					print("Evene numbers in the range are:")
+					for i in range(n):
+						if i%2==0:
+							print(i,end='')
+					print("Odd numbers in the range are:")
+					for i in range(n):
+						if i%2!=0:
+							print(i,end='')
+							
+					x=[]
+					count=0
+					for i in range(2,n):
+						for j in range(2,i):
+							if i%2==0:
+								cnt +=1
+						if cnt==1:
+							x.append(i)
+					
+				</code>
+			
+			</pre>
+		</div>
+
+	</body>
+</html>
